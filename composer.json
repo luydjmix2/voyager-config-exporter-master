@@ -1,0 +1,26 @@
+{
+    "name": "adityastic/voyager-config",
+    "description": "Voyager configuration in config files",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aditya Gupta",
+            "email": "adityaofficialgupta@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MadeByBob\\VoyagerConfig\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MadeByBob\\VoyagerConfig\\VoyagerConfigServiceProvider"
+            ]
+        }
+    }
+}
