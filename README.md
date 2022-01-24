@@ -6,15 +6,15 @@
 Voyager for Laravel is great, but it has one downside: all configuration is done within the database and cannot be configured with code. When you have multiple environments (e.g. development, staging, production), you will have conflicting configurations which is hard to sync.
 This packages tries to solve this by offering the following commands:
 
-### `artisan voyager:export`
+### `php artisan voyager:export`
 
 This command will export all Voyager related tables into `.json` files into the `config` folder. Don't forget to commit this folder! :)
 
-### `artisan voyager:import`
+### `php artisan voyager:import`
 
 This command will import all data from the `config` folder into the Voyager related tables.
 
-### `artisan voyager:clear`
+### `php artisan voyager:clear`
 
 Made a mistake? Want to start again? Remove all exported data with `voyager:clean`.
 
